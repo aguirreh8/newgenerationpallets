@@ -1,0 +1,43 @@
+.navbar {
+	background-color: rgba(255, 255, 255, 1.);
+}
+
+.navbar-brand {
+	font-family: 'Alfa Slab One', serif;
+	font-size: 50px;
+}
+
+.site-link {
+	font-family: 'Alfa Slab One', serif;
+	position: relative;
+	padding: .5rem;
+    color: #000000FF;
+	text-decoration: none;
+	transition: .2s;
+}
+
+.site-link:hover {
+	color: #EE6210FF;
+	text-decoration: none;	
+}
+
+.site-link:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #EE6210FF;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.site-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
