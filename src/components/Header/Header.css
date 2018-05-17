@@ -10,6 +10,7 @@
 .site-link {
 	font-family: 'Alfa Slab One', serif;
 	position: relative;
+	font-size: 18px;
 	padding: .5rem;
     color: #000000FF;
 	text-decoration: none;
