@@ -1,0 +1,7 @@
+body {
+	background-image: url("./assets/light-veneer.png");
+}
+
+::selection {
+	background: #F2C70CFF;
+}
