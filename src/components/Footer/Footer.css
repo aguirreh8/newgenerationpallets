@@ -1,0 +1,24 @@
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	color: #FFF;
+	font-family: "serif";
+	text-align: center;
+	padding-top: 20px;
+	border-top: solid 5px #EE6210FF;
+	margin-top: 98px;
+}
+
+.footer:after {
+	content: "";
+	position: relative;
+	display: block;
+	width: 100%;
+	/*height: 100px;*/
+	margin: -98px;
+}
+
+.footer-tag {
+	padding-top: 20px;
+}

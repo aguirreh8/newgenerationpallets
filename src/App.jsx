@@ -4,12 +4,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 const App = () =>(
 	<Router>
 		<Wrapper>
 			<Header /> 
 			<Route path="/" component={Home} />
+			<Footer />
 		</Wrapper>
 	</Router>
 );
