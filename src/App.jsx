@@ -5,12 +5,14 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () =>(
 	<Router>
 		<Wrapper>
 			<Header /> 
 			<Route path="/" component={Home} />
+			<Route path="/contact" component={Contact} />
 			<Footer />
 		</Wrapper>
 	</Router>
