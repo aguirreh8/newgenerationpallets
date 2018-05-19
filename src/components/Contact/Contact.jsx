@@ -11,7 +11,7 @@ const Contact = () => (
 					57-35 Flushing Ave <br /> Maspeth, NY 11378
 				</p>
 				<h4>Phone:</h4>
-				<p>555-555-5555</p>
+				<p>917-560-5231</p>
 			</div>
 			<div className="col">
 				<h4>Yard Hours:</h4>
@@ -19,31 +19,27 @@ const Contact = () => (
 					<tbody>
 						<tr>
 							<td>Monday:</td> 
-							<td>8-9PM</td>
+							<td>5AM - 6PM</td>
 						</tr>
 						<tr>
 							<td>Tuesday:</td> 
-							<td> 8-9PM</td>
+							<td>5AM - 6PM</td>
 						</tr>
 						<tr>
 							<td>Wednesday:</td> 
-							<td> 8-9PM</td>
+							<td>5AM - 6PM</td>
 						</tr>
 						<tr>
 							<td>Thursday:</td> 
-							<td> 8-9PM</td>
+							<td>5AM - 6PM</td>
 						</tr>
 						<tr>
 							<td>Friday:</td> 
-							<td> 8-9PM</td>
+							<td>5AM - 6PM</td>
 						</tr>
 						<tr>
 							<td>Saturday:</td> 
-							<td> 8-9PM</td>
-						</tr>
-						<tr>
-							<td>Sunday:</td> 
-							<td> 8-9PM</td>
+							<td>5AM - 6PM</td>
 						</tr>
 					</tbody>
 				</table>
